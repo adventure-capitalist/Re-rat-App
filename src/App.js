@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 
 class Rat extends Component {
   state = { 
@@ -31,13 +32,15 @@ class Rat extends Component {
   };
   render() { 
   return(
+      <main>
           <div>
           <h1>React to these rats</h1>
           <button onClick={this.newPic}>New Rat Picture</button>
           <br/>
           <br/>
-          <img src={this.state.livePic} width="40%" width="40%" />
+          <img src={this.state.livePic} width="500px" />
           </div>
+      </main>
     );
   }
 }
