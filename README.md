@@ -1,4 +1,4 @@
-This is a react app that displays random rat images:
+This is a react app that displays random rat images. The new image will never be the same as the last image shown. 
 
 https://re-rat-app.netlify.com/
 
